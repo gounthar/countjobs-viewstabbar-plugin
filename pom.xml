@@ -3,13 +3,12 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.51</version>
+    <version>4.88</version>
     <relativePath />
   </parent>
 
   <properties>
-    <jenkins.version>2.176.4</jenkins.version><!-- which version of Jenkins is this plugin built against? -->
-    <java.level>8</java.level>
+    <jenkins.version>2.462.3</jenkins.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -21,18 +20,11 @@
   <url>https://github.com/jenkinsci/countjobs-viewstabbar-plugin</url>
 
   <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/countjobs-viewstabbar-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/countjobs-viewstabbar-plugin.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/jenkinsci/countjobs-viewstabbar-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/countjobs-viewstabbar-plugin</url>
     <tag>HEAD</tag>
   </scm>
-
-  <developers>
-    <developer>
-      <id>ilbors</id>
-      <name>Ignacio Albors</name>
-    </developer>
-  </developers>
   
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
   <repositories>
